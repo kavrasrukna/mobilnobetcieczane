@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Proje10</string>
+
+    <string name="gir" />
+    <string name="et_ad" />
+    <string name="et_sifre" />
+    <string name="temizle" />
+    <string name="kayit" />
+    <string name="kayit_tamam" />
+    <string name="vazgec" />
+    <string name="kayit_sifre" />
+    <string name="kayit_email" />
+    <string name="kayit_ad" />
+    <string name="giris_metin" />
+</resources>

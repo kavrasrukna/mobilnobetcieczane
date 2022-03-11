@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.gozdekaya.proje10.Main2Activity">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="2dp">
+
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="butonaDokunuldu"
+        android:text="KAYIT OL"
+        android:textColor="@android:color/background_dark"
+        tools:text="KAYIT OL" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_kayit"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/et_ad"
+            android:inputType="textPersonName"
+            android:text="Ad"
+
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Ad" />
+
+
+        <EditText
+            android:id="@+id/et_sifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:hint="@string/et_sifre"
+            android:inputType="textPassword"
+            android:linksClickable="false"
+            android:selectAllOnFocus="false"
+            android:text="Şifre"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Şifre" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btn_gir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:onClick="butonaDokunuldu"
+            android:text="GİRİŞ"
+            android:textColor="@android:color/background_dark"
+            tools:text="GİRİŞ" />
+
+        <Button
+            android:id="@+id/btn_temizle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:elevation="0dp"
+            android:onClick="butonaDokunuldu"
+            android:text="TEMİZLE"
+            android:textColor="@android:color/background_dark"
+            tools:text="TEMİZLE" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

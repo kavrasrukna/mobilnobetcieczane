@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gozdekaya.proje10.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İlçe Seçiniz "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilceSpinner"
+        ></Spinner>
+    <Button
+        android:id="@+id/btn_kayitt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:onClick="kayit"
+        android:text="@string/gir"
+        android:textColor="@android:color/background_dark"
+        tools:text="Kayıt Ol" />
+
+    <Button
+        android:id="@+id/btn_girr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:onClick="gir"
+        android:text="@string/gir"
+        android:textColor="@android:color/background_dark"
+        tools:text="Giriş" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listele"
+        android:id="@+id/listeleButon"/>
+
+    <Button
+        android:id="@+id/haritagoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haritada Göster"
+        tools:text="Haritada Göster" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"></ListView>
+
+</LinearLayout>
